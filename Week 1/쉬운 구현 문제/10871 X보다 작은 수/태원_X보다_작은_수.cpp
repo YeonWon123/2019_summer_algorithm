@@ -14,7 +14,11 @@ int main()
 	for (int i = 0; i < N; i++) {
 		if (a[i] < X)
 		{
+<<<<<<< HEAD
 			cout << a[i] << " ";
+=======
+			cout << a[i]<< " ";
+>>>>>>> origin/master
 		}
 
 	}

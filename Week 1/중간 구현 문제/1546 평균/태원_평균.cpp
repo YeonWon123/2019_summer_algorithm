@@ -6,7 +6,6 @@ int main()
 	cin.tie(NULL); cout.tie(NULL);
 	int n = 0;
 	int b[1000];
-	int max = 0;
 	double value = 0;
 	cin >> n;
 	for (int i = 0; i < n; i++)
@@ -14,13 +13,14 @@ int main()
 		cin >> b[i];
 
 	}
-	for (int j = 0; j < n; j++)
+	int max = b[0];
+	for (int j = 1; j < n; j++)
 	{
-		if (b[j] < b[j + 1])
-			max = b[j + 1];
+		if (max < b[j])
+			max = b[j];
 	}
-	for (int k = 0; k < a; k++) {
-		value += ((b[k] / max) * 100);
+	for (int k = 0; k < n; k++) {
+		value += (((double)b[k] / max) * 100);
 	}
 	cout << (value / n);
 	return 0;

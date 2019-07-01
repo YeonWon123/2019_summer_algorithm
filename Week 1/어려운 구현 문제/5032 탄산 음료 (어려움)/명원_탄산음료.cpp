@@ -3,6 +3,9 @@ using namespace std;
 
 int main(void)
 {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL); cout.tie(NULL);
+
 	int nownum;
 	int findnum;
 	int changenum;
@@ -16,14 +19,16 @@ int main(void)
 
 	first = a; // 바꾼 새병의 개수
 
-	while (a + b >= changenum)
+	while (b >= changenum)
 	{
-		a = (a + b) / changenum;
-		b = (a + b) % changenum;
+		int temp1, temp2;
+		temp1 = (a + b) / changenum;
+		temp2 = (a + b) % changenum;
+		a = temp1; b = temp2;			
 		first += a;
 	}
 
-	cout <<  first;
+	cout << first;
 	//system("pause");
     
 	return 0;

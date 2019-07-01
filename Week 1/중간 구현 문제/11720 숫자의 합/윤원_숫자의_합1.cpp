@@ -12,7 +12,7 @@ int main()
 
 	for (int i = 0; i < N; i++)
 	{
-		sum = sum + (number[i] - 48);
+		sum = sum + (number[i] - 48); // 'A' 'a' '0'
 	}
 
 	cout << sum << "\n";

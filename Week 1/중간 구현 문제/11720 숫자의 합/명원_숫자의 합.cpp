@@ -19,6 +19,6 @@ int main(void)
 	}
 	
 	cout << sum;
-	system("pause");
+	//system("pause");
 	return 0;
 }

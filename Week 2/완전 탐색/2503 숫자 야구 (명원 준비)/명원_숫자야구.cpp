@@ -45,7 +45,7 @@ int main(void)
 			strike_cnt = 0;
 			ball_cnt = 0;
 
-			if (arr[i]) {
+			{
 
 				one = to_string(input);
 				two = to_string(i);

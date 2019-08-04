@@ -12,7 +12,8 @@ struct Vertex {
 
 	vector<int>post;
 	vector<pair<int, int>>next;
-	bool operator <	(const Vertex &v)const { return dist > v.dist; }
+	bool operator <	(const Vertex &v)const 
+	{ return dist > v.dist; }
 };
 
 

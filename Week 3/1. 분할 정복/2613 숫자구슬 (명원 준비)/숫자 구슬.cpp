@@ -30,11 +30,6 @@ int possible(int value)
 
 
 
-
-
-
-
-
 void bsearch()  // 그룹의 최댓값의 최솟값
 {
 	int left = 0, right = N * 100, middle;

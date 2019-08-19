@@ -33,11 +33,9 @@ int main()
 	}
 	if (result < 0) result *= -1;
 
-	cout << result / 2;
+	cout << fixed;
+	cout.precision(1);
+	cout << 0.5 * result ;
 
-	if (result % 2 == 0)
-		cout << ".0";
-	else
-		cout << ".5";
 	return 0;
 }

@@ -11,9 +11,15 @@ lli ccw(pair<lli, lli> r, pair<lli, lli> p, pair<lli, lli> q)
 	//lli first = (p.first - r.first) * (q.second - r.second);
 	//lli second = (p.second - r.second) * (q.first - r.first);
 	//lli result = first - second;
+<<<<<<< HEAD
 	lli result = (r.first * p.second) - (r.second * p.first) 
 		+ (p.first * q.second) - (q.first * p.second) 
 		+ (q.first * r.second) - (r.first * q.second);
+=======
+	lli result = (r.first * p.second) - (r.second * p.first)
+				+ (p.first * q.second) - (q.first * p.second)
+				+ (q.first * r.second) - (r.first * q.second);
+>>>>>>> cf60227248d0e5597d3d27ad7e3ad05959911acc
 	return result;
 }
 

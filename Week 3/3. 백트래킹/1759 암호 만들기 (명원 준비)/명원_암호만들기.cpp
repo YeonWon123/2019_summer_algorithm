@@ -16,7 +16,7 @@ int L, C;
 void backtracking(int position, string str, int mo, int ja)
 
 {
-
+	
 	if (str.size() == L)
 
 	{

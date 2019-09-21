@@ -1,0 +1,56 @@
+A. 등록
+
+< 1차 Test 문제 >
+E. 거의 최단 경로
+
+< 2차 Test 문제 >
+B. 축구 게임
+F. 문자열 뽑기
+
+< 태원 관련 문제 >
+C. 선발 명단 : https://www.acmicpc.net/problem/3980 - 최대 유량
+D. 암호코드  : https://www.acmicpc.net/problem/2011
+M. Networks with Unidirectional Links : https://www.acmicpc.net/problem/3295 - 이분 매칭
+P. Stickers : https://www.acmicpc.net/problem/9465 - DP
+S. How Many to Be Happy : https://www.acmicpc.net/problem/14955 - 최대 유량
+V. 종이의 개수 : https://www.acmicpc.net/problem/1780 - 분할 정복
+
+< 명원 관련 문제 >
+G. 화학 제품 : https://www.acmicpc.net/problem/8901
+I. 점 분리
+J. Vacation Plans : https://www.acmicpc.net/problem/14962
+K. 맹독 방벽
+Q. Term Project : https://www.acmicpc.net/problem/9466
+T. The Mountain of Gold : https://www.acmicpc.net/problem/10360
+
+< 윤원 관련 문제 >
+H. 최종 순위 : https://www.acmicpc.net/problem/3665 - 위상 정렬
+L. 철로 : https://www.acmicpc.net/problem/13334 - Greedy + Priority Queue
+N. 랜선 자르기
+O. Closest Pair : https://www.acmicpc.net/problem/14746
+R. Meteor Shower : https://www.acmicpc.net/problem/13329
+U. Proving Equivalent : https://www.acmicpc.net/problem/3682
+
+
+* maxflow, biperate matching 문제 3개
+ - 선발 명단 (maxflow 문제) : https://www.acmicpc.net/problem/3980
+ - Networks with Unidirectional Links (이분매칭 문제) : https://www.acmicpc.net/problem/3295 (단, 영어로 출제 예정)
+ - How Many to Be Happy (Minimum Cut 문제, Max-Flow Min-Cut Theorem 이용) : https://www.acmicpc.net/problem/14955
+
+* 최단거리 문제 3개 : djikstra, bellmanford (도전문제는 이번 test에 나오지 않음)
+ - 거의 최단 경로
+ - Vacation Plans : https://www.acmicpc.net/problem/14962
+ - The Mountain of Gold : https://www.acmicpc.net/problem/10360
+
+ < cf) 도전문제 : cycle mean : https://www.acmicpc.net/problem/14747 >
+
+* 위상정렬 문제 1개 + SCC 문제 1개
+ - 최종 순위 (위상 정렬) https://www.acmicpc.net/problem/3665
+ - 동치 증명 (SCC) https://www.acmicpc.net/problem/3682
+
+
+
+
+< 4차 Test용 >
+ - 축구 전술 (SCC) https://www.acmicpc.net/problem/3977
+ - MT (SCC) https://www.acmicpc.net/problem/10265
